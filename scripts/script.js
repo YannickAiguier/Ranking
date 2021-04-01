@@ -55,7 +55,7 @@ $(document).ready(function () {
 // fonction qui défini l'url de l'api et appelle la fonction getData
 function home() {
     $("h1").text('');
-    // mettre un loader ici
+    $(".loader").removeClass("hide");
     let myUrl = "https://bwf-api.herokuapp.com/api/" + discipline;
     getData(myUrl);
 }
@@ -82,6 +82,7 @@ function showResult(data) {
     data.forEach(entity => {
         createFeedElement(entity);
     });
+    $(".loader").addClass("hide");
 }
 
 // fonction qui crée un élément du feed
