@@ -1,5 +1,11 @@
 let discipline = "men-singles";
 $("h1").text(discipline.toUpperCase());
+let flag = {
+    CHN: "china", DEN: "denmark", ENG: "england", FRA: "france", GER: "germany", HKG: "hong-kong",
+    IND: "india", INA: "indonesia", JPN: "japan", KOR: "korea", MAS: "malaysia", ESP: "spain",
+    TPE: "taipei", THA: "thailand"
+};
+
 
 $(document).ready(function () {
 
@@ -48,6 +54,8 @@ $(document).ready(function () {
 
 // fonction qui défini l'url de l'api et appelle la fonction getData
 function home() {
+    $("h1").text('');
+    // mettre un loader ici
     let myUrl = "https://bwf-api.herokuapp.com/api/" + discipline;
     getData(myUrl);
 }
@@ -82,17 +90,13 @@ function createFeedElement(element) {
     $("article").append(newSection);
     let newH2 = ("<h2>");
     $("section:last").append(newH2);
-    $("h2:last").text(`${element.rank}. ${element.name} (${element.country})`);
+    $("h2:last").text(`${element.rank}. ${element.name}`);
+    let newDiv = ("<div>");
+    $("section:last").append(newDiv);
+    let newImg = ("<img>");
+    $("section:last div").append(newImg).addClass("points");
+    $("section:last img").attr("src", "./images/drapeaux/" + flag[element.country] + ".svg").addClass("flag");
     let newP = ("<p>");
-    $("section:last").append(newP);
+    $("section:last div").append(newP);
     $("section:last p:last").text(`${element.points} points`);
-    $("section:last").append(newP);
-    $("section:last p:last").text(`${element.tmntsPlayed} tournois joués, ${element.earnings} de gains, ${element.ranking_change} places gagnées`);
-    $("section:last").append(newP);
-    $("section:last p:last").text(`Carrière : ${element.win} pour ${element.loss} défaites`);
-}
-
-// fonction pour afficher/masquer le menu
-function toggleMenu() {
-    $(".menu-content").toggleClass("show");
 }

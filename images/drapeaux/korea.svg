@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+ <path d="m0 0h300v200h-300z" fill="#fff" stroke="#000"/>
+ <path transform="matrix(-.83195 -.55484 .55484 -.83195 122.02 412.35)" d="m200 275a50 50 0 1 1 -100 0" fill="#c60c30" fill-rule="evenodd"/>
+ <path transform="matrix(.83195 .55484 -.55484 .83195 101.87 -323.3)" d="m325 325a50 50 0 1 1 -100 0" fill="#003478" fill-rule="evenodd"/>
+ <path transform="matrix(-.83195 -.55484 .55484 -.83195 94.258 363.74)" d="m100 250a25 25 0 1 1 -50 0" fill="#003478" fill-rule="evenodd"/>
+ <path transform="matrix(.83195 .55484 -.55484 .83195 143.92 -206.21)" d="m175 250a25 25 0 1 1 -50 0" fill="#c60c30" fill-rule="evenodd"/>
+ <path transform="matrix(-.55484,.83195,-.83195,-.55484,0,0)" d="m-25.014-80.384h49.92v8.32h-49.92z" fill-rule="evenodd"/>
+ <path transform="matrix(-.55484,.83195,-.83195,-.55484,0,0)" d="m-25.014-105.34h49.92v8.32h-49.92z" fill-rule="evenodd"/>
+ <path transform="matrix(-.55484,.83195,-.83195,-.55484,0,0)" d="m-25.014-92.864h49.92v8.32h-49.92z" fill-rule="evenodd"/>
+ <path transform="matrix(-.55484,.83195,-.83195,-.55484,0,0)" d="m-24.987-276.27h22.88v8.32h-22.88z" fill-rule="evenodd"/>
+ <path transform="matrix(-.55484,.83195,-.83195,-.55484,0,0)" d="m2.0531-276.27h22.88v8.32h-22.88z" fill-rule="evenodd"/>
+ <path transform="matrix(-.55484,.83195,-.83195,-.55484,0,0)" d="m-24.987-288.75h22.88v8.32h-22.88z" fill-rule="evenodd"/>
+ <path transform="matrix(-.55484,.83195,-.83195,-.55484,0,0)" d="m-24.987-263.79h22.88v8.32h-22.88z" fill-rule="evenodd"/>
+ <path transform="matrix(-.55484,.83195,-.83195,-.55484,0,0)" d="m2.0531-263.79h22.88v8.32h-22.88z" fill-rule="evenodd"/>
+ <path transform="matrix(-.55484,.83195,-.83195,-.55484,0,0)" d="m2.0531-288.75h22.88v8.32h-22.88z" fill-rule="evenodd"/>
+ <path transform="rotate(56.3)" d="m141.52-152.2h22.88v8.32h-22.88z" fill-rule="evenodd"/>
+ <path transform="rotate(56.3)" d="m168.56-152.2h22.88v8.32h-22.88z" fill-rule="evenodd"/>
+ <path transform="rotate(56.3)" d="m168.56-177.16h22.88v8.32h-22.88z" fill-rule="evenodd"/>
+ <path transform="rotate(56.3)" d="m141.52-177.16h22.88v8.32h-22.88z" fill-rule="evenodd"/>
+ <path transform="rotate(56.3)" d="m141.52-164.68h49.92v8.32h-49.92z" fill-rule="evenodd"/>
+ <path transform="matrix(-.55484,-.83195,.83195,-.55484,0,0)" d="m-191.37-25.972h22.88v8.32h-22.88z" fill-rule="evenodd"/>
+ <path transform="matrix(-.55484,-.83195,.83195,-.55484,0,0)" d="m-164.33-25.972h22.88v8.32h-22.88z" fill-rule="evenodd"/>
+ <path transform="matrix(-.55484,-.83195,.83195,-.55484,0,0)" d="m-191.37-38.452h49.92v8.32h-49.92z" fill-rule="evenodd"/>
+ <path transform="matrix(-.55484,-.83195,.83195,-.55484,0,0)" d="m-191.37-13.492h49.92v8.32h-49.92z" fill-rule="evenodd"/>
+</svg>
