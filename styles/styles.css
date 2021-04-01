@@ -2,9 +2,10 @@ html {
     margin: 0;
 }
 
+/* styles pour le header */
 header {
     background: #df2027;
-    height: 110px;
+    height: 72px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,27 +21,33 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 225px;
-    height: 108px;
+    width: 130px;
+    height: 72px;
     transform: skewX(10deg);
     box-shadow: -6px 3px 10px #00000029;
     background-color: #fff;
 }
 
-.rightHeader {
-    width: 20%;
+.logo {
+    width: 100px;
+    height: 48px;
 }
 
-.rankingChoice, .disciplineChoice {
+.rightHeader {
+    width: 1%;
+}
+
+/* styles pour le premier niveau de navigation */
+.rankingChoice {
     background: #df2027;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
-.btn, .btn2 {
-    display: flex;
-    justify-content: center;
-    width: 8em;
+.btn {
+    display: block;
+    text-align: center;
+    width: 6em;
     color: white;
     font-family: 'Indie Flower', cursive;
     font-size: 1.5em;
@@ -50,28 +57,30 @@ header {
     border: 0;
 }
 
-.btn2 {
-    font-size: 1em;
-    width: 6em;
-}
-
 .btn a {
     display: block;
     text-decoration: none;
     color: white;
 }
 
-.leftSpace, .rightSpace {
-    width: 25%;;
-    background-color: #df2027;
-}
-
-.middleSpace {
-    width: 49%;
+/* styles pour le deuxième niveau de navigation */
+.disciplineChoice {
+    background: #df2027;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
+.btn2 {
+    display: block;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    background-color: #df2027;
+    border: 0;
+}
+
+/* styles pour la page */
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;;
@@ -81,6 +90,7 @@ h1 {
     text-align: center;
 }
 
+/* styles pour l'affichage  du feed */
 h2 {
     margin-left: .1em;
 }
